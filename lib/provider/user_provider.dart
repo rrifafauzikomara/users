@@ -20,23 +20,8 @@ class UserProvider with ChangeNotifier {
   ApiState get state => _state;
 
   Future<void> _getUsers() async {
-    try {
-      _state = ApiState.loading;
-      notifyListeners();
-      await Future.delayed(const Duration(seconds: 2));
-      final response = await apiService.getUsers();
-      if (response.data.isEmpty) {
-        _state = ApiState.noData;
-        notifyListeners();
-      } else {
-        _state = ApiState.hasData;
-        _users.addAll(response.data);
-        notifyListeners();
-      }
-    } on Exception catch (e) {
-      _state = ApiState.error;
-      notifyListeners();
-      debugPrint(e.toString());
-    }
+    //TODO: Call function from Api Service and mapping it
+    _state = ApiState.error;
+    notifyListeners();
   }
 }
