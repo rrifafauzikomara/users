@@ -5,11 +5,7 @@ class ApiService {
   final _remoteConfigService = RemoteConfigService();
 
   Future<UserResponse> getUsers() async {
-    try {
-      final response = _remoteConfigService.getValue('users');
-      return UserResponse.fromJson(response);
-    } catch (e) {
-      rethrow;
-    }
+    //TODO: Add Function to get data from Remote Config Service
+    throw UnimplementedError();
   }
 }
