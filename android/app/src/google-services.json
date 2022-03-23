@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871493940012",
+    "project_id": "fir-demo-flutter-festival",
+    "storage_bucket": "fir-demo-flutter-festival.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871493940012:android:407dea93c7a502372c7289",
+        "android_client_info": {
+          "package_name": "com.rifafauzi6.users"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871493940012-r9v99kfsh87sgd7ht232nbo5kbo3906q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlNobE4fOhWrb60mTMfxT_d_V1ezNkb_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871493940012-r9v99kfsh87sgd7ht232nbo5kbo3906q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
