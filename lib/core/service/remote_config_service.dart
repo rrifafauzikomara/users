@@ -5,7 +5,6 @@ class RemoteConfigService {
 
   Future<void> init() async {
     //TODO: Add Init Firebase Remote Config
-    throw UnimplementedError();
   }
 
   Map<String, dynamic> getValue(String key) {

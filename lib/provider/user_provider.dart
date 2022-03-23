@@ -21,6 +21,7 @@ class UserProvider with ChangeNotifier {
 
   Future<void> _getUsers() async {
     //TODO: Call function from Api Service and mapping it
-    throw UnimplementedError();
+    _state = ApiState.error;
+    notifyListeners();
   }
 }
